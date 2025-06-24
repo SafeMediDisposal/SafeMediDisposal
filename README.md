@@ -49,13 +49,15 @@ SafeMediDisposal addresses this issue with a **digital-first, people-centric** a
 
 ## 🛠️ Tech Stack
 
-| Technology | Usage |
-|------------|--------|
-| **HTML5** | Page structure and semantic layout |
-| **CSS3** | Custom design, layout, and responsiveness |
-| **JavaScript** | Interactivity and UI behavior |
-| **Google Fonts** | Enhanced typography with Poppins and Fraunces |
-| *(Optional)* | Bootstrap / libraries if used |
+| Technology         | Usage                                                 |
+|--------------------|-------------------------------------------------------|
+| **HTML5**          | Page structure and semantic layout                    |
+| **CSS3**           | Custom design, layout, and responsiveness             |
+| **JavaScript**     | Interactivity and UI behavior                         |
+| **Bootstrap 5**    | Prebuilt responsive components and utilities          |
+| **Font Awesome**   | Iconography for UI clarity and design enhancement     |
+| **Google Fonts**   | Enhanced typography with Poppins and Fraunces         |
+
 
 ---
 
