@@ -13,7 +13,6 @@ Built using modern front-end technologies, this solution empowers users with awa
 Check out the deployed version of the project here:
 
 👉 **[SafeMediDisposal Live Site](https://incomparable-puffpuff-4b8d73.netlify.app/)**  
-*(Replace with your actual deployed URL)*
 
 ---
 
