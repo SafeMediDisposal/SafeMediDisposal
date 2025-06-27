@@ -4,7 +4,6 @@
 
 Built using modern front-end technologies, this solution empowers users with awareness, real-time updates, and organized campaigns to promote responsible waste management. It’s our first step toward building an ecosystem where hospitals, individuals, and authorities can come together for cleaner and safer healthcare practices.
 
-> 🔥 Developed as part of a National-Level Hackathon to create real-world impact through technology.
 
 ---
 
