@@ -128,4 +128,61 @@
       font-weight: bold;
       text-decoration: none;
     }
-  
+@media (max-width: 992px) {
+  .left-section {
+    display: none; /* hide the fixed image on smaller screens */
+  }
+
+  .right-section {
+    width: 100%;
+    margin-left: 0;
+    padding: 40px 20px;
+  }
+
+  .right-section h2 {
+    font-size: 40px;
+  }
+
+  .form-box {
+    padding: 30px 20px;
+    max-width: 100%;
+  }
+
+  .form label {
+    padding: 15px 10px;
+    font-size: 18px;
+  }
+
+  .form input {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .form button {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .right-section h2 {
+    font-size: 28px;
+  }
+
+  .form label {
+    font-size: 16px;
+  }
+
+  .form input {
+    padding: 16px;
+    font-size: 14px;
+  }
+
+  .form button {
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .form p {
+    font-size: 16px;
+  }
+}
