@@ -103,3 +103,64 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+/* Tablets and smaller */
+@media (max-width: 992px) {
+  .explore-campaigns {
+    flex-direction: column;
+    margin: 30px 20px;
+  }
+
+  .explore-campaigns img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .explore-text {
+    padding: 30px 20px;
+  }
+
+  .campaign-cards {
+    gap: 40px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+  .campaigns-section {
+    padding: 30px 20px;
+  }
+
+  .ongoing-heading {
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .explore-text h3 {
+    font-size: 18px;
+  }
+
+  .explore-text p {
+    font-size: 14px;
+  }
+
+  .explore-text button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .campaign-card {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .campaign-card p {
+    font-size: 13px;
+  }
+
+  .campaign-card button {
+    padding: 7px 14px;
+    font-size: 13px;
+  }
+}
