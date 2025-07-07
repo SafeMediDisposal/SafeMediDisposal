@@ -48,3 +48,55 @@ footer{
     margin: 20px;
     padding: 30px;
 }
+
+@media (max-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    font-size: 16px;
+  }
+
+  .explore {
+    margin-left: 40px;
+  }
+
+  .logo {
+    width: 180px;
+    height: auto;
+  }
+
+  .container h3 {
+    font-size: 20px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 15px;
+  }
+
+  .explore {
+    margin-left: 0;
+  }
+
+  .socials i {
+    font-size: 24px;
+    margin: 8px;
+  }
+
+  .rights-reserved {
+    font-size: 13px;
+    padding: 20px 10px;
+    text-align: center;
+  }
+
+  .logo {
+    width: 140px;
+    height: auto;
+    margin: auto;
+  }
+}
