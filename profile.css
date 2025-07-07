@@ -193,3 +193,88 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+@media (max-width: 992px) {
+  .top {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hello-name {
+    font-size: 32px;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  .content {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .edit-section h2,
+  .campaigns-section h2 {
+    padding-left: 20px;
+    font-size: 26px;
+  }
+
+  .form-input {
+    width: 90%;
+    margin-left: 20px;
+  }
+
+  .save-btn {
+    margin-left: 20px;
+  }
+
+  .campaign-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-x: unset;
+  }
+}
+
+@media (max-width: 600px) {
+  .hello-name {
+    font-size: 24px;
+  }
+
+  .log-out {
+    width: 140px;
+    height: 36px;
+    font-size: 14px;
+  }
+
+  .form-input {
+    padding: 20px;
+    font-size: 13px;
+  }
+
+  .campaign-card {
+    width: 90%;
+  }
+
+  .campaign-card img {
+    height: 160px;
+  }
+
+  .campaign-card p {
+    font-size: 13px;
+  }
+
+  .campaign-card button {
+    font-size: 13px;
+    padding: 6px 12px;
+  }
+}
