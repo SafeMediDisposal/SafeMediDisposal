@@ -1,200 +1,211 @@
 
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-      /* box-sizing: border-box; */
-    }
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+  color: #1a1a1a;
+  margin: 0;
+  padding: 0;
+}
 
-    .container {
-      display: flex;
-      min-height: 100vh;
-    }
+.text {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-top: 60px;
+}
 
-    .left-section {
-      flex: 1;
-       position: fixed;  /* keeps the image still */
-       top: 0;
-       left: 0;
-       height: 100%;
-       width: 50%;
-       z-index: 0;
-    }
+.text h1 {
+  font-family: 'Fraunces', sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 25px;
+  color: #2E3A59;
+  text-align: center;
+}
 
-    .left-section img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      
-    }
+.text p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+  color: #1a1a1a;
+  text-align: center;
+}
 
-    .logo {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      text-align: center;
-    }
-
-    .logo-img {
-      width: 80px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    .right-section {
-  width: 50%;
-  margin-left: 50%;
-  padding: 50px;
+.image-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  overflow-y: auto;       /* ✅ scrolls if content overflows */
-  max-height: 100vh;      /* ✅ limits to screen height */
+  gap: 50px;
+  margin: 50px auto;
+  box-shadow: #333333;
+}
+
+.image-container img {
+  width: 447.66px;
+  height: 681px;
+  border-radius: 60px;
+  object-fit: cover;
+}
+
+.image-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  margin: 134px 120px;
+}
+
+.image-container-1 img{
+  width: 341px;
+  height: 520px;
+  border-radius: 41px;
+  object-fit: cover;
+}
+
+.block {
+  background-color: #333333;
+  color: #fff;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  box-sizing: border-box;
+  gap: 100px;
+  margin-top: 134px;
+  overflow-x: hidden;
 }
 
 
-    .right-section h2 {
-      font-size: 60px;
-      margin-bottom: 30px;
-      margin-top: 25px;
-      color: #2E3A59;
-      font-weight: bold;
-      text-align: center;
-      font-family: 'Fraunces', serif;
-    }
 
-    .form-box {
-      background-color: #f4fbfb;
-      padding: 40px 50px;
-      border-radius: 30px;
-      box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-      width: 100%;
-      max-width: 601px;
-      height: auto;   
-      max-height: none;
-      overflow-y: visible;
-
-    }
-
-    .form label {
-      display: block;
-      padding: 25px;
-      margin-top: 15px;
-      font-size: 14px;
-      color: #333;
-      font-weight: 800;
-      font-size: 20px;
-    }
-
-    .form input {
-      width: 95%;
-      padding: 25px;
-      margin-top: 5px;
-      border-radius: 15px;
-      border: 1px solid #ccc;
-      background-color: #e2f0f1;
-      font-size: 14px;
-    }
-
-    .form button {
-  display: block;
-  margin: 50px auto;           /* ✅ centers horizontally */
-  width: 40%;
-  padding: 15px;
-  background-color: #3cbec9;
-  color: white;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: 0.3s ease;
+.block h1 {
+  font-family: 'Fraunces';
+  font-size: 42px;
+  text-align: left;
+  margin-bottom: 25px;
+  color: #fff;
 }
 
+.block p {
+  font-family: 'Poppins';
+  font-size: 22px;
+  text-align:justify;
+  line-height: 1.5;
+  color: #fff;
+  width: 100%;  /* remove fixed width */
+  height: auto; /* remove fixed height */
+}
 
-    .form button:hover {
-      background-color: #2aa7b1;
-    }
+.block img {
+  width: 550px;
+  height: 700px;
+  border-top-right-radius: 355px;
+  border-bottom-right-radius: 355px;
+  object-fit: cover;
+}    
 
-    .form p {
-      margin-top: 10px;
-      font-size: 18px;
-      text-align: center;
-    }
+.features-glance-container {
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    text-align: center;  
+    margin-bottom: 120px; 
+}
 
-    .form a {
-      color: #000;
-      font-weight: bold;
-      text-decoration: none;
-    }
+.features-glance-container h2 {
+    font-family: 'Fraunces', serif; 
+    font-size: 30px; 
+    font-weight: 700; 
+    color: #2E3A59; 
+    position: relative; 
+    display: inline-block; 
+    padding-bottom: 5px; 
+}
+
+.features-glance-container h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    height: 3px; 
+    background-color: #2E3A59; 
+}
+
 @media (max-width: 992px) {
-  .left-section {
-    display: none; /* hide image section on smaller screens */
+  .image-container,
+  .image-container-1 {
+    flex-direction: column;
+    gap: 40px;
+    margin: 60px auto;
   }
 
-  .right-section {
-    width: 100%;
-    margin-left: 0;
+  .image-container img,
+  .image-container-1 img {
+    width: 90%;
+    height: auto;
+  }
+
+  .block {
+    flex-direction: column;
+    height: auto;
     padding: 40px 20px;
-    max-height: none;
+    gap: 30px;
   }
 
-  .right-section h2 {
-    font-size: 42px;
+  .block img {
+    width: 100%;
+    height: auto;
+    border-radius: 40px;
   }
 
-  .form-box {
-    padding: 30px 20px;
-    border-radius: 20px;
+  .block p,
+  .block h1 {
+    text-align: center;
+    padding: 0 20px;
   }
 
-  .form label {
-    padding: 15px 10px;
+  .text h1 {
+    font-size: 34px;
+  }
+
+  .text p {
     font-size: 18px;
   }
 
-  .form input {
-    width: 100%;
-    padding: 18px;
-    font-size: 14px;
-  }
-
-  .form button {
-    width: 70%;
-    padding: 12px;
-    font-size: 15px;
-  }
-
-  .form p {
-    font-size: 16px;
+  .features-glance-container h2 {
+    font-size: 26px;
   }
 }
 
-@media (max-width: 480px) {
-  .right-section h2 {
-    font-size: 32px;
+@media (max-width: 600px) {
+  .text h1 {
+    font-size: 28px;
   }
 
-  .form-box {
-    padding: 20px;
-  }
-
-  .form label {
+  .text p {
     font-size: 16px;
   }
 
-  .form input {
-    padding: 16px;
-    font-size: 13px;
+  .image-container,
+  .image-container-1 {
+    gap: 30px;
   }
 
-  .form button {
-    width: 90%;
-    font-size: 14px;
+  .block h1 {
+    font-size: 24px;
   }
 
-  .form p {
-    font-size: 15px;
+  .block p {
+    font-size: 16px;
+  }
+
+  .features-glance-container h2 {
+    font-size: 22px;
+  }
+
+  .features-glance-container {
+    padding: 0 10px;
   }
 }
