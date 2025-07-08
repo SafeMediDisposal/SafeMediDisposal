@@ -4,14 +4,12 @@ document.addEventListener('DOMContentLoaded', function () {
   form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-    const enteredEmail = document.getElementById('e-mail').value;
+    const enteredEmail = document.getElementById('e-mail').value.trim();
     const enteredPassword = form.querySelector('input[type="password"]').value;
 
-    // Get stored credentials
     const storedEmail = localStorage.getItem('userEmail');
     const storedPassword = localStorage.getItem('userPassword');
 
-    // Check credentials
     if (enteredEmail === storedEmail && enteredPassword === storedPassword) {
       localStorage.setItem('userLoggedIn', 'true');
       window.location.href = 'profile.html';
