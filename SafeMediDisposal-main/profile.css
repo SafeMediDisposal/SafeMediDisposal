@@ -1,0 +1,194 @@
+ * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+.top{
+    width: 68%;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.hello-name{
+    font-weight: bolder;
+    font-family: 'Fraunces';
+    font-size: 40px;
+    color: #2E3A59;
+}
+.log-out{
+    background-color: #50C2C9;
+    color: #FDF9EE;
+    width: 178px;
+    height: 41px;
+    border: none;
+      outline: none;
+    border-radius: 10px;
+}
+        /* Main container */
+        .container {
+            display: flex;
+            height: 1728px;
+            width: 70%;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 60px;
+            overflow: hidden;
+        }
+
+        /* Left sidebar */
+        .sidebar {
+            background-color: #50C2C9;
+            width: 400px;
+            min-height: 100vh;
+        }
+
+        /* Right content area */
+        .content {
+            padding: 50px;
+            flex: 1;
+            padding: 30px;
+            background-color: #e8e8e8;
+        }
+
+        
+
+        /* Profile section */
+        .profile-section {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin: 40px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ddd;
+            margin: 0 auto 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+        }
+
+        .profile-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .profile-email {
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Edit account section */
+        .edit-section {
+            margin-bottom: 30px;
+        }
+
+        .edit-section h2 {
+            font-size: 30px;
+            text-decoration: underline;
+            margin-bottom: 50px;
+            color:#2E3A59;
+            font-family: 'Fraunces';
+            padding-left: 60px;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+        }
+
+        .form-input {
+            width: 88%;
+            padding: 30px;
+            margin: 20px;
+            margin-left: 60px;
+            border: 1px solid #ccc;
+            border-radius: 15px;
+            background-color: #CADBDB;
+            font-size: 14px;
+        }
+
+        .save-btn {
+            background-color: #50C2C9;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-left:65px ;
+            margin-top: 10px;
+        }
+
+        .save-btn:hover {
+            background-color: #35959a;
+        }
+
+        /* Campaigns section */
+        .campaigns-section{
+            margin-top: 100px;
+        }
+        .campaigns-section h2 {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 45px;
+            color:#2E3A59;
+            text-decoration: underline;
+            font-family: 'Fraunces';
+            padding-left: 60px;
+        }
+
+       .campaign-cards {
+  display: flex;
+ flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+   flex-wrap: nowrap; /* Prevents them from stacking vertically */
+  overflow-x: auto;   /* Optional: Allows scrolling if they overflow */
+}
+
+.campaign-card {
+  width: 280px;
+  background: #e0f6f6;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.campaign-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.campaign-card h4 {
+  margin: 15px 0 10px;
+  font-weight: 600;
+}
+
+.campaign-card p {
+  font-size: 14px;
+  padding: 0 15px;
+  color: #444;
+}
+
+.campaign-card button {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background-color: #4ac6cb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}

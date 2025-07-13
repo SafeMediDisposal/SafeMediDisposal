@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 60px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  flex-wrap: wrap;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #2d3e50;
+}
+
+.logo img {
+  height: 80px;
+  margin-right: 10px;
+}
+
+.logo .highlight {
+  color: #35c4cf;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.nav-links a {
+  margin: 0 25px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links a.active {
+  color: #35c4cf;
+}
+
+.icons i {
+  margin-left: 20px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: black;
+}
+
+/* 🍔 Hamburger Icon (hidden by default) */
+.menu-toggle {
+  display: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  color: black;
+}
+
+/* 📱 Tablet & Mobile View */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+  }
+
+  .menu-toggle {
+    display: block;
+    margin-left: auto;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+    background-color: white;
+    padding: 10px 0;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .nav-links a {
+    margin: 10px 20px;
+    padding: 10px 0;
+    border-top: 1px solid #eee;
+  }
+
+  .icons {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
+
+/* 📱 Extra Small Devices */
+@media (max-width: 480px) {
+  .logo img {
+    height: 60px;
+  }
+
+  .logo {
+    font-size: 1.4rem;
+  }
+
+  .nav-links a {
+    font-size: 0.95rem;
+  }
+
+  .icons i {
+    font-size: 1rem;
+  }
+}
+/* 🌐 Global Styles */

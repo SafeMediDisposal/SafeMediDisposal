@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>User Profile | SafeMediDisposal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="navstyles.css" />
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <a href="home.html">
+        <img src="assets/logo.png" alt="SafeMediDisposal Logo" />
+      </a>
+    </div>
+    <nav class="nav-links">
+      <a href="home.html">HOME</a>
+      <a href="services.html">SERVICES</a>
+      <a href="aboutus.html">ABOUT US</a>
+      <a href="contactus.html">CONTACT US</a>
+    </nav>
+    <div class="icons">
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="profile.html"><i class="fas fa-user" style="color: #50C2C9;"></i></a>
+    </div>
+  </header>
+
+  <div class="top">
+    <div class="hello-name" id="helloName">Hello, User!</div>
+    <button class="log-out" type="button" onclick="logOut()">Log Out</button>
+  </div>
+
+  <div class="container">
+    <div class="sidebar"></div>
+
+    <div class="content">
+      <div class="profile-section">
+        <div class="profile-pic">👤</div>
+        <div class="profile-name" id="profileName">User</div>
+        <div class="profile-email" id="profileEmail">user@email.com</div>
+      </div>
+
+      <div class="edit-section">
+        <h2 class="section-title">Edit your account:</h2>
+
+        <div class="form-group">
+          <input type="text" class="form-input" id="editFirstName" placeholder="Edit your firstname">
+        </div>
+
+        <div class="form-group">
+          <input type="text" class="form-input" id="editLastName" placeholder="Edit your lastname">
+        </div>
+
+        <div class="form-group">
+          <input type="email" class="form-input" id="editEmail" placeholder="Edit your email">
+        </div>
+
+        <button class="save-btn" onclick="saveChanges()">Save changes</button>
+      </div>
+
+      <div class="campaigns-section">
+        <h2 class="section-title">Your Participated Campaigns:</h2>
+
+        <div class="campaign-cards">
+          <div class="campaign-card">
+            <img src="assets/clean.jpg" alt="Clean Hospital Drive">
+            <h4>Clean Hospital Drive</h4>
+            <p>Join our campaign focused on disposing hospital waste in under-served areas.</p>
+            <button>Join Now</button>
+          </div>
+
+          <div class="campaign-card">
+            <img src="assets/bins.avif" alt="Color-Coding Awareness Week">
+            <h4>Awareness Week</h4>
+            <p>Raise awareness in clinics about using proper color-coded bins.</p>
+            <button>Join Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="navbar.js"></script>
+  <script src="profile.js"></script>
+</body>
+</html>
